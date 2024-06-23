@@ -4,12 +4,12 @@ require('./scheduler');
 const express = require('express');
 const mongoose = require('mongoose');
 const emailRoutes = require('./routes/emailRoutes');
-
+// test
 const app = express();
 const PORT = process.env.PORT || 3000;
 const MONGODB_URI = 'mongodb+srv://sakshibheda35:WMNtnnn2oKFgCIIu@cluster0.qkbzhwk.mongodb.net/';
 
-// Connect to MongoDB
+// Connect to MongoDB 
 mongoose.connect(MONGODB_URI, {
     useNewUrlParser: true,
     useUnifiedTopology: true,
